@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(".clickable").click(function(){
-        $(".finegirl").fadeToggle();
-        $(".finegirl").slideToggle();
+        $(".finegirl").slideDown();
+        $(".finegirl").slideUp();
     });
 });
